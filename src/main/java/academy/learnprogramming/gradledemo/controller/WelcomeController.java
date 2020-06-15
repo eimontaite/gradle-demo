@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Slf4j
 @Controller
 public class WelcomeController {
-	
+
 	@GetMapping("welcome")
 	public String welcome(Model model) {
 		model.addAttribute("message", "Hello Gradle");
